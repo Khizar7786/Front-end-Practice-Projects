@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8992f92588.js" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>  
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">
+        Welcome to my to-do app
+    </h1>
+    <div id="task-container">
+        <div id="task-addition-container">
+            <input type="text" style="color: black;" placeholder="Enter your task" id="input">
+            <button id="add-button">ADD</button>
+        </div>
+        <div style="display: none;">
+            <button class="edit"><i class="fa-solid fa-pen-to-square" ></i></button>
+            <button id="delete"><i class="fa-solid fa-trash" style="background-color: red;"></i></button>
+        </div>          
+        <ul id="task-list">
+        </ul>
+        <p id="error">TASK CAN NOT BE EMPTY !</p>   
+    </div>
+</body>
+</html>
